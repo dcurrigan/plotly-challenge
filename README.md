@@ -4,13 +4,14 @@ Week 15 Plotly Homework
 > Created by Dale Currigan  
 > June 2021  
   
-![Plotly](/Images/microbes.jpg)    
+![Plotly](Images/microbes.jpg)    
 
 ## Table of contents  
 * [Project Intro](#Project-Intro)  
 * [Project Structure](#Project-Structure)  
 * [Setup](#Setup)  
-* [Design](#Design)  
+* [Design](#Design) 
+* [Sources](#Sources)  
 * [Contributors](#Contributors)  
 * [Status](#Status)  
 
@@ -84,7 +85,11 @@ y coordinate = radius x sin θ
 where the radius is the needle length
 ```
 
-
+# Sources
+|No|Source|Link|
+|-|-|-|
+|1|Belly Button Biodiversity                |http://robdunnlab.com/projects/belly-button-biodiversity/| 
+|2|Calculus - Polar Coordinates             |https://tutorial.math.lamar.edu/classes/calcii/polarcoordinates.aspx|
 
    
 # Contributors  
