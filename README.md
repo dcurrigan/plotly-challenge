@@ -4,7 +4,7 @@ Week 15 Plotly Homework
 > Created by Dale Currigan  
 > June 2021  
   
-![Plotly](Images/microbes.jpg)    
+![Plotly](/Images/microbes.jpg)  
 
 ## Table of contents  
 * [Project Intro](#Project-Intro)  
