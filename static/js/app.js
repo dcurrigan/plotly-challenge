@@ -1,7 +1,7 @@
 // Select the subject selection dropdown menu
 var dropDown = d3.select("#selDataset")
 
-// Define the location of the samples datasetS
+// Define the location of the samples dataset
 const url = 'samples.json';
 
 // Trigger an update of the dashboard when the dropdown selection is changed
@@ -14,7 +14,7 @@ function loadData() {
             
         subject_ids = data.metadata.map(row => row['id']); // the 'id' key 
         
-        // Add the id's 
+        // Add the id's to the dropdown 
         d3.select("#selDataset")
         .selectAll('myOptions')
         .data(subject_ids)
@@ -49,7 +49,7 @@ function optionChanged() {
         ///////////////////////
         
         // metadata for currently selected subject
-        demographics = data.metadata.filter(subject => subject.id == selected);
+        demographics = baseData.metadata.filter(subject => subject.id == selected);
         demographics = demographics[0]
         
         // clear the demographics box
@@ -69,7 +69,7 @@ function optionChanged() {
         ///////////////////////
 
         // samples for currently selected subject
-        samples = data.samples.filter(subject => subject.id == selected)[0];
+        samples = baseData.samples.filter(subject => subject.id == selected)[0];
         
         sample_values  = samples.sample_values.slice(0, 10);
         otu_ids = samples.otu_ids.slice(0,10)
@@ -281,6 +281,7 @@ function optionChanged() {
     
 }
 
+//  Load data on initial page load
 loadData()
 
 
