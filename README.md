@@ -75,7 +75,7 @@ samples = baseData.samples.filter(subject => subject.id == selected)[0];
   
 The guage chart used the in-build Plotly Guage-mode indicator chart, but with the addition of a needle plotted as a second trace. This required application of some basic principles of trigonometry to determine the x and y coordinates of of the needle for each point on the guage. 
 
-![Plotly](/Images/polar_coordinates.gif)  
+<div style="text-align:center">![Plotly](/Images/polar_coordinates.gif)</div>  
   
 Using the principle above:
 ```
